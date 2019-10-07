@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Framework starts at Mon Oct 07 15:53:20 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[validLoginscript execution done.]]>
+    </line>
+    <line>
+      <![CDATA[Home page verified successfully.]]>
+    </line>
+    <line>
+      <![CDATA[validLoginscript successfully executed.]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginscript execution done.]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginscript successfully executed.]]>
+    </line>
+    <line>
+      <![CDATA[Framework ends at =Mon Oct 07 15:53:32 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Total number executed scripts are =2]]>
+    </line>
+    <line>
+      <![CDATA[The passed script is = 2]]>
+    </line>
+    <line>
+      <![CDATA[The failed script is = 0]]>
+    </line>
+    <line>
+      <![CDATA[The skipped script is = 0]]>
+    </line>
+    <line>
+      <![CDATA[Framework starts at Mon Oct 07 15:53:32 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[createCustomerscript execution done.]]>
+    </line>
+    <line>
+      <![CDATA[Create project verified successfully.]]>
+    </line>
+    <line>
+      <![CDATA[createCustomerscript successfully executed.]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomerscript execution done.]]>
+    </line>
+    <line>
+      <![CDATA[Customer deleteted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomerscript successfully executed.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12080" started-at="2019-10-07T15:53:20 IST" finished-at="2019-10-07T15:53:32 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12080" started-at="2019-10-07T15:53:20 IST" finished-at="2019-10-07T15:53:32 IST">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@5f341870]" name="preCondition" is-config="true" duration-ms="3948" started-at="2019-10-07T15:53:20 IST" finished-at="2019-10-07T15:53:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@5f341870]" name="validLogin" duration-ms="3715" started-at="2019-10-07T15:53:24 IST" finished-at="2019-10-07T15:53:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginscript execution done.]]>
+            </line>
+            <line>
+              <![CDATA[Home page verified successfully.]]>
+            </line>
+            <line>
+              <![CDATA[validLoginscript successfully executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@5f341870]" name="postCondition" is-config="true" duration-ms="201" started-at="2019-10-07T15:53:28 IST" finished-at="2019-10-07T15:53:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@5f341870]" name="preCondition" is-config="true" duration-ms="3897" started-at="2019-10-07T15:53:28 IST" finished-at="2019-10-07T15:53:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@5f341870]" name="invalidLogin" duration-ms="239" started-at="2019-10-07T15:53:32 IST" finished-at="2019-10-07T15:53:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLoginscript execution done.]]>
+            </line>
+            <line>
+              <![CDATA[invalidLoginscript successfully executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@5f341870]" name="postCondition" is-config="true" duration-ms="50" started-at="2019-10-07T15:53:32 IST" finished-at="2019-10-07T15:53:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="16447" started-at="2019-10-07T15:53:32 IST" finished-at="2019-10-07T15:53:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16447" started-at="2019-10-07T15:53:32 IST" finished-at="2019-10-07T15:53:49 IST">
+      <class name="com.actitime.scripts.TaskTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="preCondition" is-config="true" duration-ms="3583" started-at="2019-10-07T15:53:32 IST" finished-at="2019-10-07T15:53:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="createCustomer" duration-ms="5501" started-at="2019-10-07T15:53:36 IST" finished-at="2019-10-07T15:53:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomerscript execution done.]]>
+            </line>
+            <line>
+              <![CDATA[Create project verified successfully.]]>
+            </line>
+            <line>
+              <![CDATA[createCustomerscript successfully executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="postCondition" is-config="true" duration-ms="360" started-at="2019-10-07T15:53:41 IST" finished-at="2019-10-07T15:53:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="preCondition" is-config="true" duration-ms="3465" started-at="2019-10-07T15:53:42 IST" finished-at="2019-10-07T15:53:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="deleteCustomer" duration-ms="3304" started-at="2019-10-07T15:53:45 IST" depends-on-methods="com.actitime.scripts.TaskTest.createCustomer" finished-at="2019-10-07T15:53:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomerscript execution done.]]>
+            </line>
+            <line>
+              <![CDATA[Customer deleteted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[deleteCustomerscript successfully executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.TaskTest@5649fd9b]" name="postCondition" is-config="true" duration-ms="231" started-at="2019-10-07T15:53:48 IST" finished-at="2019-10-07T15:53:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
